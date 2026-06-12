@@ -1,39 +1,28 @@
-# 🌤️ WeatherPulse CLI
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
-[![API](https://img.shields.io/badge/API-OpenWeatherMap-orange.svg)](https://openweathermap.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# ☁️ WeatherPulse CLI
 
-An aesthetic, robust, and interactive Command-Line Interface (CLI) weather application built in Python. *WeatherPulse CLI* empowers users to fetch live weather analytics globally using either a City Name or ZIP Code. Featuring dynamic health/weather advice and automated background log archiving.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![API](https://img.shields.io/badge/Connect-OpenWeather-brightgreen?style=for-the-badge)
+![CLI](https://img.shields.io/badge/UI-Terminal-black?style=for-the-badge)
 
----
+A high-performance command-line weather utility that provides real-time meteorological data for any city globally. Built with a focus on speed, accuracy, and professional CLI output formatting.
 
-## 📸 Live Terminal Demonstration
+## 🎯 Purpose
+WeatherPulse was created to demonstrate integration with external REST APIs and the handling of asynchronous data in a terminal environment.
 
-Here is the complete application workflow in action:
+## 🛠 Key Features
+- **Global Search:** Fetch weather for any city in the world.
+- **Detailed Metrics:** Includes temperature, humidity, wind speed, and atmospheric pressure.
+- **Rich UI:** Uses `Rich` library for beautiful terminal formatting and tables.
+- **Error Resilient:** Graceful handling of API limits, network issues, and invalid city names.
 
-<video src="assets/terminal_demo.mp4" width="100%" controls></video>
-
----
-
-## ✨ Core Features
-
-- *Dual-Mode Search engine:* Fetch accurate, real-time weather metrics via *City Name* or *ZIP/Postal Code*.
-- *Smart Weather Insights:* Employs an intelligent algorithmic analysis to offer custom real-time advice based on current temperatures.
-- *Automated Structured Logging:* Writes searches into a structured ledger (weather_log.txt) appending automated system timestamps.
-
----
-
-## 📂 Archival System Preview
-
-The system writes clean, readable system metrics to log archives:
-
-![Log File Screenshot](assets/log_preview.png)
-
----
-
-## 🛠️ Setup and Installation
-
-### 1. Clone the repository
+## 🔧 Installation
 ```bash
-git clone [https://github.com/hafizabdulaziz/weatherpulse_cli.git](https://github.com/hafizabdulaziz/weatherpulse_cli.git)
+pip install requests rich
+git clone https://github.com/hafizabdulaziz/weatherpulse_cli.git
+cd weatherpulse_cli
+python weather.py
+```
+
+---
+<p align="center">Connect with me on <a href="https://www.linkedin.com/in/hafiz-abdul-aziz-8874132b3/">LinkedIn</a></p>
