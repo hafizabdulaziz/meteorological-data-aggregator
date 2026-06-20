@@ -1,5 +1,5 @@
 
-# ☁️ WeatherPulse CLI
+# Meteorological Data Aggregator
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![API](https://img.shields.io/badge/Connect-OpenWeather-brightgreen?style=for-the-badge)
